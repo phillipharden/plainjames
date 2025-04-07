@@ -1,0 +1,20 @@
+footer {
+  background-color: #000000;
+  color: #cccccc;
+  padding-bottom: 20px;
+  margin: 0 !important;
+}
+footer p {
+    font-size: 12px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.kmb-logo {
+  max-width: 150px;
+}
