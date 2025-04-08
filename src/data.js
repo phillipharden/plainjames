@@ -1,48 +1,41 @@
 
 export const youtubeVideos = [
   {
-    title: "No Time Ft 1K Phew",
-    url: "https://www.youtube.com/embed/Pe6-Vx6jDMI?si=rY4NX7j379JuJQw-",
+    title: "“Are You Thirsty” Sermon by Min. James Dollard",
+    url: "https://www.youtube.com/embed/WouMZQtvHwI?si=3o8mIryKVh_uUgB3",
+  },
+
+  {
+    title: "Tokyo Drift",
+    url: "https://www.youtube.com/embed/iYNtJeibdKU?si=UWkwdhYdEgsRtlpa",
   },
   {
-    title: "Ten Toes Down",
-    url: "https://www.youtube.com/embed/CffEiS0LGJY?si=vTAWPPVAve3oPrFE",
+    title: "Ride",
+    url: "https://www.youtube.com/embed/8ieSL7h7SI4?si=myeVyMA-QUBfHcVh",
   },
   {
-    title: "Profit",
-    url: "https://www.youtube.com/embed/BjbiCPs-K1Q?si=CVXkqhnFqNfCqBlx",
+    title: "Trap Facts",
+    url: "https://www.youtube.com/embed/oldTq3s6SVg?si=WcxQsP5ndzAO5Gy7",
   },
   {
-    title: "Atlas",
-    url: "https://www.youtube.com/embed/vS99N9bsHV8?si=lNeNJqAIP6JrLyvg",
+    title: "Look In The Mirror",
+    url: "https://www.youtube.com/embed/PyJlyAQTRb0?si=k70eEyZK6FF05o6g",
   },
   {
-    title: "Higher",
-    url: "https://www.youtube.com/embed/jAmItArZ-Nw?si=RVp3JCkHNB56vSy9",
+    title: "Flexin",
+    url: "https://www.youtube.com/embed/FqQexB6cE8c?si=73waO5WqTzsr9GP9",
   },
   {
-    title: "Higher Cypher",
-    url: "https://www.youtube.com/embed/YkWn2CaPas8?si=VWmz7Lj9WPJoVipO",
+    title: "What I'm Bout",
+    url: "https://www.youtube.com/embed/_NBKkiD3RIA?si=Vw5ST6GmyMEmNwIH",
   },
   {
-    title: "2Solid",
-    url: "https://www.youtube.com/embed/E7VXUAkEobI?si=AXloqADY2D2yHrp9",
+    title: "Trap Theology",
+    url: "https://www.youtube.com/embed/c7ZqudXeHu8?si=guRz8DzRQkZmyqsR",
   },
   {
-    title: "Get Right",
-    url: "https://www.youtube.com/embed/XGcP6sRGE9I?si=rQYJhS1Ygog-DbCT",
-  },
-  {
-    title: "Live JuneTeenth Atlanat 2023",
-    url: "https://www.youtube.com/embed/PjOCoLaz2bQ?si=3T6FNihqhw6QKtJo",
-  },
-  {
-    title: "Kingdom Building ATL",
-    url: "https://www.youtube.com/embed/bluinPhlSxU?si=Q8SccmP8xUGgp8zq",
-  },
-  {
-    title: "2Solid",
-    url: "https://www.youtube.com/embed/E7VXUAkEobI?si=AXloqADY2D2yHrp9",
+    title: "I'm Ok",
+    url: "https://www.youtube.com/embed/MIQGAtuJVdo?si=N0BDemit0QkUxrRN",
   },
 ];
 

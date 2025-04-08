@@ -4,7 +4,9 @@
   justify-content: space-between;
   padding: 10px 20px;
   position: relative;
+   z-index: 2;
 }
+
 
 .navbar-container{
    display: flex;
@@ -13,8 +15,10 @@
   width: 100%;
 }
 
-.logo img {
-  max-width: 200px;
+.brand{
+  font-size: 28px;
+  font-weight: bold;
+  color: #f5f5f5; 
 }
 
 .main-nav,
@@ -28,19 +32,19 @@
 .social-links li a {
   text-decoration: none;
   font-size: 18px;
-  color: #000;
+  color: #f5f5f5; 
 }
 
 .main-nav li a:hover,
 .social-links li a:hover {
-  color: #555;
+  opacity: 0.7;
 }
 
 .hamburger {
   display: none;
   cursor: pointer;
   font-size: 24px;
-  color: #000;
+  color: #f5f5f5; 
   margin-left: 10px;
 }
 

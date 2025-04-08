@@ -12,7 +12,7 @@ const Music = () => {
           <div className="col col-12 col-md-6 music-box">
             <iframe
               style={{ borderRadius: "12px" }}
-              src="https://open.spotify.com/embed/artist/5u7Z560mwLIY30JoBc4CJt?utm_source=generator"
+              src="https://open.spotify.com/embed/artist/4aBcwMGnLwKP2kq9SD71G2?utm_source=generator"
               width="95%"
               className="spotify"
               frameBorder="0"
@@ -22,6 +22,7 @@ const Music = () => {
           </div>
 
           <div className="col col-12 col-md-6 music-box">
+
             <iframe
               allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
               frameBorder="0"
@@ -32,7 +33,7 @@ const Music = () => {
                 borderRadius: "10px",
               }}
               sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
-              src="https://embed.music.apple.com/us/album/solid/1517323540"></iframe>
+              src="https://embed.music.apple.com/us/artist/plain-james/437311151"></iframe>
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import "../styles/footer.css";
-import KMB from "../images/kmb.png";
+import TrapTheologyImage from "../images/tt-logo.png";
+import Trackstarz from "../images/trackstarz.png";
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -7,10 +8,22 @@ const Footer = () => {
     <footer>
       <div className="container footer-container">
         <div>
-          <img src={KMB} alt="KMB Records" className="kmb-logo" />
+          <a
+            href="https://trackstarz.com/"
+            target="_blank"
+            rel="noopener noreferrer">
+            <img src={Trackstarz} alt="Trap Theology" className="kmb-logo" />
+          </a>
         </div>
         <div>
-          <p>&copy; K.B.M.Records {year}</p>
+          <img
+            src={TrapTheologyImage}
+            alt="Trap Theology"
+            className="kmb-logo"
+          />
+        </div>
+        <div className="trademark">
+          <p>{year} Trap Theology &trade;</p>
         </div>
       </div>
     </footer>

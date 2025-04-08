@@ -1,10 +1,10 @@
 import AnimatedText from "../components/AnimatedText";
-import Image from "../images/about-img.jpg";
+import Image from "../images/about-img.png";
 import "../styles/about.css";
 
 const About = () => {
   return (
-    <section id="about" >
+    <section id="about">
       <div className="container">
         <div className="headline">
           <AnimatedText text="About" />
@@ -19,21 +19,22 @@ const About = () => {
           </div>
           <div className="col col-12 col-lg-6 p-4 about-text-container">
             <p className="about-text">
-              OneThree, also known as 13thDesciple, was born on December 6,
-              1982, in Brunswick, Georgia, and raised in Atlanta, Georgia. In
-              2008, he founded 13thDesciple & Company, driven by his conviction
-              that the message of Jesus Christ should extend beyond the church
-              and into the world. As a self-taught songwriter and producer,
-              OneThree was honored with the title of GRINDER of the Year at the
-              2011 Inferno Awards in recognition of his unwavering dedication.
-              He has also played an instrumental role in promoting the
-              Crunk4ChristRadio apartment tour, taking the gospel directly to
-              the streets of Atlanta. As the CEO and recording artist of K.B.M.
-              Records, OneThree leads his label with a mission to represent
-              Jesus Christ and his twelve disciples, symbolized by the number
-              13—one soul plus the Holy Trinity. His work is focused not on
-              preaching religion, but on teaching a personal relationship with
-              Jesus Christ.
+              Raised on the Eastside of Atlanta, Georgia; Plain James grew up
+              listening to Hip Hop arists such as Outkast, UGK, T.I. and Jeezy
+              just to name a few. Those artists along with the urban environment
+              in which he lived had a major influence on the music that he made
+              himself. After moving to Carrollton, Ga he was locally successful
+              with his music and began to get a good buzz, but one day he
+              stopped and analyzed the life he was living and realized something
+              was missing. He soon found out that what he was missing was a
+              genuine relationship with Jesus Christ. From that point on he gave
+              up his music and began to place his attention on seeking God.
+              After about a year he realized that he still had a love for music
+              and with the help of his good friend William "Young Noah" Bohannon
+              he began to rap for the Lord. Now seeking to help lead lost souls
+              to Christ and help motivate struggling Christians in their walk,
+              James is back working at his craft and going as far as the Holy
+              Spirit will lead him with his method of "Trap Theology".
             </p>
           </div>
         </div>

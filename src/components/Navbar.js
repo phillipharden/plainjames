@@ -1,14 +1,12 @@
 import React, { useState } from "react";
 import "../styles/navbar.css";
-import Logo from "../images/logo.png";
 import {
   SiApplemusic,
   SiSpotify,
   SiTiktok,
   SiYoutube,
   SiInstagram,
-  SiBandsintown,
-  SiBandcamp,
+  SiCashapp,
 } from "react-icons/si";
 import { MdEmail } from "react-icons/md";
 import { BsTwitterX } from "react-icons/bs";
@@ -16,6 +14,7 @@ import { TfiFacebook } from "react-icons/tfi";
 import { IoShareSocial } from "react-icons/io5";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
+import { FaShopify } from "react-icons/fa6";
 
 const Navbar = () => {
   const [showSocialMenu, setShowSocialMenu] = useState(false);
@@ -27,9 +26,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <div className="logo">
-          <img src={Logo} alt="13th Desciple logo" />
-        </div>
+        <div className="brand">Plain James</div>
 
         {/* First nav: Page links */}
         <ul className={`main-nav ${showNavMenu ? "active" : ""}`}>
@@ -42,13 +39,21 @@ const Navbar = () => {
           <li>
             <a href="#about">About</a>
           </li>
+          <li>
+            <a
+              href="https://plainjamesdw.wufoo.com/forms/plain-james-booking-request/"
+              target="_blank"
+              rel="noopener noreferrer">
+              Booking
+            </a>
+          </li>
         </ul>
 
         {/* Second nav: Social icons */}
         <ul className={`social-links ${showSocialMenu ? "active" : ""}`}>
           <li>
             <a
-              href="https://www.facebook.com/ThirteenthDesciple"
+              href="https://www.facebook.com/TrapTheology"
               target="_blank"
               rel="noopener noreferrer">
               <TfiFacebook />
@@ -56,7 +61,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="https://www.instagram.com/onethree_13thdesciple"
+              href="https://www.instagram.com/plainjamesdw/"
               target="_blank"
               rel="noopener noreferrer">
               <SiInstagram />
@@ -64,7 +69,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="https://x.com/home"
+              href="https://x.com/PlainJamesDW"
               target="_blank"
               rel="noopener noreferrer">
               <BsTwitterX />
@@ -72,7 +77,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="https://www.youtube.com/channel/UCRgwAgBcRslrOiR--USjZEw"
+              href="https://www.youtube.com/channel/UC-EM3ktpbSnJjRZjrcWdN0g"
               target="_blank"
               rel="noopener noreferrer">
               <SiYoutube />
@@ -80,7 +85,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="https://www.tiktok.com/@kingdombuildingat"
+              href="https://www.tiktok.com/@traptheology"
               target="_blank"
               rel="noopener noreferrer">
               <SiTiktok />
@@ -88,7 +93,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="https://music.apple.com/us/artist/13thdesciple/1517323326"
+              href="https://music.apple.com/us/artist/plain-james/437311151"
               target="_blank"
               rel="noopener noreferrer">
               <SiApplemusic />
@@ -96,7 +101,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="https://open.spotify.com/artist/5u7Z560mwLIY30JoBc4CJt"
+              href="https://open.spotify.com/artist/4aBcwMGnLwKP2kq9SD71G2?si=oGIejBdKQpGge17DP5foAg"
               target="_blank"
               rel="noopener noreferrer">
               <SiSpotify />
@@ -104,14 +109,22 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="https://13thdesciple.bandcamp.com/"
+              href="https://cash.app/$PlainJamesDW"
               target="_blank"
               rel="noopener noreferrer">
-              <SiBandcamp />
+              <SiCashapp />
             </a>
           </li>
           <li>
-            <a href="mailto:kbmrecords13@gmail.com">
+            <a
+              href="https://traptheology.com/"
+              target="_blank"
+              rel="noopener noreferrer">
+              <FaShopify />
+            </a>
+          </li>
+          <li>
+            <a href="mailto:Info@traptheology.com">
               <MdEmail />
             </a>
           </li>

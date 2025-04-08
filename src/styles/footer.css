@@ -1,5 +1,4 @@
 footer {
-  background-color: #000000;
   color: #cccccc;
   padding-bottom: 20px;
   margin: 0 !important;
@@ -17,4 +16,8 @@ footer p {
 
 .kmb-logo {
   max-width: 150px;
+}
+
+.trademark{
+  display: flex;
 }

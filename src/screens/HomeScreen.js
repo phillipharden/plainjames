@@ -4,26 +4,30 @@ import Music from "../sections/Music";
 import VideoCarousel from "../components/VideoCarousel";
 import "../styles/homescreen.css";
 import About from "../sections/About";
+import Video from "../images/marta.mp4";
 
 const HomeScreen = () => {
   return (
     <div>
       <section id="home" className="hero-section d-flex justify-content-center">
-     
-        <img
-          src={HeroImage}
-          atl="13th Desciple standing tall"
-          className="hero-img fade-bottom rise-image"
-        />
+        <video autoPlay loop muted className="background-video">
+          <source src={Video} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div className="overlay"></div>
+        <div className="content">
+          <img
+            src={HeroImage}
+            atl="Plain James"
+            className="hero-img fade-bottom rise-image"
+          />
+        </div>
       </section>
-    
-        <Videos />
-    
-    
-        <Music />
-        <About />
-   
-    
+
+      <Videos />
+
+      <Music />
+      <About />
     </div>
   );
 }
